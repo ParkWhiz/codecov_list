@@ -1,6 +1,5 @@
 require 'httparty'
 require 'octokit'
-require 'digest/md5'
 require 'dotenv'
 Dotenv.load
 
