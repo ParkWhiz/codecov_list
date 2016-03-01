@@ -1,0 +1,14 @@
+<h1 class="title" data-bind="title"></h1>
+
+<img class="background" src="/assets/logo-codecov.png">
+
+<ul class="items list-nostyle">
+  <li class="item" data-foreach-item="items" data-bind-class="item.widget_class">
+    <span class="label repo" data-bind="item.repo"></span>
+    <!-- <span class="label branch" data-bind="item.branch"></span> -->
+    <img class="avatar" data-bind-src="item.avatar_url" />
+    <span class="label coverage_change" data-bind="item.coverage_change"></span>
+    <span class="label coverage" data-bind="item.coverage"></span>
+    <div class="clearfix" />
+  </li>
+</ul>
